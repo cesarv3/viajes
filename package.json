@@ -1,0 +1,29 @@
+{
+  "name": "viajes",
+  "version": "1.0.0",
+  "description": "Sistema para generar presupuestos de viajes",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "methods": "^1.1.2",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarv3/viajes.git"
+  },
+  "author": "Cesar Villa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesarv3/viajes/issues"
+  },
+  "homepage": "https://github.com/cesarv3/viajes#readme"
+}
