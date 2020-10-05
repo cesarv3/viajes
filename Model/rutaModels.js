@@ -7,6 +7,15 @@ exports.findById = async function (id) {
         }
     });
 
+    
+
+    // for (const ubicacion of arregloUbicaciones) {
+        
+    // }
+
+    // ruta["dataValues"].ubicaciones=arregloUbicaciones;
+    // ruta["dataValues"].tiempoTotal = resultSumaTiempo;
+
     return ruta
 
 }

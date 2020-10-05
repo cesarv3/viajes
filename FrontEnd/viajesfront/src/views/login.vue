@@ -1,20 +1,40 @@
 <template>
+<v-container fluid>
+
   <div id="login">
+
     <h1>Login</h1>
-    <input
+
+    <v-row justify="center">
+      <v-col cols="6">
+        <input
       type="text"
       name="username"
       v-model="input.username"
       placeholder="Username"
     />
-    <input
+      </v-col>
+    </v-row>
+
+    <v-row justify="center">
+      <v-col cols="6">
+        <input
       type="password"
       name="password"
       v-model="input.password"
       placeholder="Password"
     />
-    <button type="button" v-on:click="login()">Login</button>
+      </v-col>
+    </v-row>
+
+    
+    <v-btn v-on:click="login()">Login</v-btn>
+    <!-- <button type="button" v-on:click="login()">Login</button> -->
   </div>
+</v-container>
+
+
+  
 </template>
 
 <script>

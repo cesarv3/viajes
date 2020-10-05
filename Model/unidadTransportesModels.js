@@ -18,6 +18,14 @@ exports.findById = async function (idUnidadTransporte) {
 /*Busca todos los unidadtransporte*/
 exports.findAll = async function () {
     let unidadtransportes = await modeloDB.UnidadTransporte.findAll();
+    // let costosCombustibles = [];
+
+    // for (const iterator of unidadtransportes) {
+    //     let costoCombustible = await modeloDB.Combustible.findById(iterator.tipoCombustible)
+    //     costosCombustibles.push(costoCombustible);
+    // }
+   // unidadtransportes["dataValues"].costoCombustible = costosCombustibles;
+    
     return unidadtransportes
 
 }
